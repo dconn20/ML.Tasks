@@ -11,6 +11,8 @@
 
 
 #### OVERVIEW OF TASKS
+***********************************************************************************************************************************
+
 Sqrt2 - Write a Python function called sqrt2 that calculates and prints to the screen the square root of 2 to 100 decimal places. Your code should not depend on any module from the standard library1 or otherwise. You should research the task first and include references and a description of your algorithm.
 
 Chi-squared - The Chi-squared test for independence is a statistical hypothesis test like a t-test. It is used to analyse whether two categorical variables are independent. The Wikipedia article gives the table below as an example [4], stating the Chi-squared value based on it is approximately 24.6. Use scipy.stats to verify this value and calculate the associated p value. You should include a short note with references justifying your analysis in a markdown cell.
@@ -19,28 +21,49 @@ Standard deviation - The standard deviation of an array of numbers x is calculat
 demonstrating that the STDEV.S calculation is a better estimate for the standard deviation of a population when performed on a sample. Note that part of this task is to figure out the terminology in the previous sentence.
 
 K-nearest neighbours - Use scikit-learn to apply k Nearest Neighbours clustering to Fisher’s famous Iris data set. You will easily obtain a copy of the data set online. Explain in a Markdown cell how your code works and how accurate it might be, and then explain how your model could be used to make predictions of species of iris.
-
+*******************************************************************************************************************************************************************
 
 
 #### PACKAGES USED IN THIS PROJECT
-The following packages were used to run analysis for this project.
+********************************************************************************************************************************************************************
+The following packages were used to run analysis for this project
 
-Python https://www.python.org/downloads/
+Anaconda https://www.anaconda.com/distribution/ - is the easiest way to perfrom Python data science machine learning on Linux, Windows and Mac OS
 
-Anaconda https://www.anaconda.com/distribution/ - is the easiest way to perfrom Python data science machine learning on Linux, Windows and Mac OS.
+Python https://www.python.org/downloads/ - An interpreted, high-level and general-purpose programming language
 
-iPython https://ipython.org/ - it an interactive command-line terminal for Python.
-
-Numpy http://www.numpy.org/ - is the fundamental package for scientific computing within Python.
+iPython https://ipython.org/ - it an interactive command-line terminal for Python
 
 Jupyter Notebook https://jupyter.org/ - is an open-source web application that allows the creation and sharing of documents that contains live code, equations, visualisations and narriative text
 
-pandas https://pandas.pydata.org/
+Numpy http://www.numpy.org/ - is the fundamental package for scientific computing within Python
 
-seaborn https://seaborn.pydata.org/
+Pandas https://pandas.pydata.org/ - Python library used for for data manipulation and analysis
 
-scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html
+Matplotlib.pylab https://matplotlib.org/ - Python library used for creating static, animated, and interactive visualizations
 
-matplotlib.pylab https://matplotlib.org/
+Seaborn https://seaborn.pydata.org/ - Python data visualization library based on matplotlib
 
-scikit-learn https://scikit-learn.org/stable/
+scipy.stats https://docs.scipy.org/doc/scipy/reference/stats.html - Contains a large number of probability distributions as well as a growing library of statistical functions 
+
+scikit-learn https://scikit-learn.org/stable/ - machine learning library for Python
+***************************************************************************************************************************************************
+
+
+INSTRUCTIONS
+*******************************************************************************************************************************************************
+Once you install Anaconda, the packages listed above will also be installed.
+
+First go to https://github.com/dconn20/ML.Tasks.git and download the repository
+
+Navigate to the correct folder on your terminal that you saved the repository in
+
+You can now run the notebook by typing jupyter notebook in the command prompt
+
+A window or tab should open in your default web browser. If this does not happen the command prompt output will provide a URL which you can copy and paste into your web browser to access jupyter notebook
+
+Double click the jupyter notebook file and the notebook should open in a new tab
+
+When opened select run all cells
+
+Please note that certain cells must be run before others, such as importing the libraries
