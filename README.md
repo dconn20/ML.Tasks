@@ -11,6 +11,7 @@
 
 
 #### OVERVIEW OF TASKS
+***********************************************************************************************************************************
 
 Sqrt2 - Write a Python function called sqrt2 that calculates and prints to the screen the square root of 2 to 100 decimal places. Your code should not depend on any module from the standard library1 or otherwise. You should research the task first and include references and a description of your algorithm.
 
@@ -24,7 +25,7 @@ K-nearest neighbours - Use scikit-learn to apply k Nearest Neighbours clustering
 
 
 #### PACKAGES USED IN THIS PROJECT
-
+********************************************************************************************************************************************************************
 The following packages were used to run analysis for this project
 
 Anaconda https://www.anaconda.com/distribution/ - is the easiest way to perfrom Python data science machine learning on Linux, Windows and Mac OS
