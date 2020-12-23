@@ -1,3 +1,5 @@
+<img src="Images/GMIT-logo.png" width="500" align="center" />
+
 # Machine Learing and Statistics
 # Tasks 2020
 
@@ -50,7 +52,7 @@ scikit-learn https://scikit-learn.org/stable/ - machine learning library for Pyt
 ***************************************************************************************************************************************************
 
 
-INSTRUCTIONS
+#### INSTRUCTIONS
 *******************************************************************************************************************************************************
 Once you install Anaconda, the packages listed above will also be installed.
 
